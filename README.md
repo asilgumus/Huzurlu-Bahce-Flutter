@@ -1,31 +1,41 @@
-# huzurlu bahce
+# Huzurlu Bahçe (Peaceful Garden)
 
-huzurlu bahce, bilissel ve motor becerilerini gelistirmeyi amaclayan, eglenceli bir mobil uygulamadir. kisisel gelisimi desteklemek egitici oyunlar barindirir.
+Huzurlu Bahçe is an interactive, educational mobile application built with Flutter and Dart. Deeply rooted in medical research, the app aims to help slow down cognitive decline and improve motor skills through engaging, research-backed digital exercises.
 
-## ozellikler
+Built upon an extensive review of scientific articles and clinical studies regarding cognitive decline (specifically targeting methodologies to slow the progression of Alzheimer's disease), the application translates academic findings into a proactive, non-pharmacological approach for preserving cognitive health and fine motor control.
 
-- bilissel egzersizler:
-  - bellek oyunu
-  - dikkat gorevi
-  - yonelim calismasi
+## Features
 
-- motor beceriler:
-  - sekil cizme
-  - el goz koordinasyonu
+- **Cognitive Module** (Designed to build cognitive reserve):
+  - Memory Retention Game
+  - Visual Attention Task
+  - Orientation Task
 
-- kisisel gelisim takibi:
-  - gelisimim (ilerleme gostergesi)
-  - basarimlarim (kazanilan rozetler)
+- **Motor Skills Module** (Designed for fine motor control):
+  - Freehand Shape Drawing
+  - Asynchronous Hand-Eye Coordination
 
-## teknolojiler
+- **Performance Tracking**:
+  - Progress Analytics (Real-time performance measurements)
+  - Achievements (Earned competency badges)
 
-bu uygulama flutter framework'u kullanilarak gelistirilmektedir ve dart dili yazilmistir. malzeme tasarim ilkelerine sadik kalarak temiz ve basit bir arayuz sunar.
+## Technologies
 
-## kurulum
+This application is developed using the **Flutter** framework and written in **Dart**. It presents a clean, calming, dark-themed user interface adhering to Material Design principles. The UI is enriched with custom animations and frosted glass layer effects to create an anxiety-free experience. 
 
-projeyi derlemek ve calistirmak icin asagidaki adimlari takip edebilirsiniz:
+Robust state management is utilized to handle real-time interactive game logic, while optimizing rendering pipelines ensures a consistent, smooth 60fps performance.
 
-1. projeyi bilgisayariniza indirin veya klonlayin.
-2. terminal ekranini acin ve projenin ana dizinine gidin.
-3. bagimliliklari yuklemek icin "flutter pub get" komutunu calistirin.
-4. uygulamayi baslatmak icin "flutter run" komutunu kullanin.
+## Installation
+
+To compile and run the project locally, please follow these steps:
+
+1. Download or clone this repository to your computer.
+2. Open a terminal and navigate to the project's root directory.
+3. Run the following command to install the required dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Start the application by running:
+   ```bash
+   flutter run
+   ```
